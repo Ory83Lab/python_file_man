@@ -1,20 +1,4 @@
-# import shutil
-# import os
 
-# src = "/Users/orazioconte/Desktop/django-script/manage_file/partenza"
-# dst = "/Users/orazioconte/Desktop/django-script/manage_file/destinazione"
-
-
-# shutil.copy(src=src + '/sole.jpg', dst=dst + '/sole.jpg')
-
-# =================================================================
-
-# src_path = r"/Users/orazioconte/Desktop/django-script/manage_file/partenza/static/base.html"
-# dst_path = r"/Users/orazioconte/Desktop/django-script/manage_file/destinazione/"
-# shutil.copy(src_path, dst_path)
-# print('Copied')
-
-# =================================================================
 
 # import os
 # import shutil
@@ -51,3 +35,4 @@ import shutil
 source_dir = r"/Users/orazioconte/Desktop/django-script/manage_file/partenza/static/"
 destination_dir = r"/Users/orazioconte/Desktop/django-script/manage_file/destinazione/static/"
 shutil.copytree(source_dir, destination_dir)
+
